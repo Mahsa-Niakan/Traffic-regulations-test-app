@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_marginBottom="40dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="تعداد پاسخ های صحیح:"
+    android:layout_alignParentLeft="true"
+    android:id="@+id/score_text"
+    android:textColor="#008000"
+    android:textSize="14sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تعداد پاسخ های غلط:"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="30px"
+        android:id="@+id/wrong_text"
+        android:textColor="#ff0000"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تعداد سوالات پاسخ داده شده:"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="60px"
+        android:id="@+id/all_text"
+        android:textColor="#000"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/score"
+        android:layout_alignParentLeft="true"
+        android:textColor="#008000"
+        android:textStyle="bold"
+        android:text="0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wrong"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:text="0"
+        android:layout_marginTop="30px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/all"
+        android:layout_alignParentLeft="true"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="0"
+        android:layout_marginTop="60px"/>
+</RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="چرا موتور سواران نسبت به رانندگان اتومبیل آسیب پذیر ترند؟"
+        android:textSize="15sp"
+        android:padding="8dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/question"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="با سرعت بیشتری پیچ ها را طی میکنند"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="#0091EA"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/choice1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تغییرات سطح راه بر روی آنها تاثیرات بیشتری دارد"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="#0091EA"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/choice2"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" نسبت به اتومبیل شتاب بیشتری میگیرند"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="#0091EA"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/choice3"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="سرعت آنها از اتومبیل ها سریعتر است"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="#0091EA"
+        android:textColor="#fff"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/choice4"
+        />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sessions" />
+
+</LinearLayout>

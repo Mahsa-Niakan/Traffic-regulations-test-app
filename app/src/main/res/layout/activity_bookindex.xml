@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:text="فصل اول"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/fasl1"
+        android:background="@drawable/button1"
+        android:layout_weight="0.03"
+        android:onClick="showPdf1"/>
+
+    <Button
+        android:text="فصل دوم"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:id="@+id/fasl2"
+        android:background="@drawable/button1"
+        android:onClick="showPdf2"/>
+
+    <Button
+        android:background="@drawable/button1"
+        android:text="فصل سوم"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:id="@+id/fasl3"
+        android:onClick="showPdf3"/>
+
+    <Button
+        android:background="@drawable/button1"
+        android:text="فصل چهارم"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:id="@+id/fasl4"
+        android:onClick="showPdf4"/>
+
+    <Button
+        android:background="@drawable/button1"
+        android:text="فصل پنجم"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:id="@+id/fasl5"
+        android:onClick="showPdf5"/>
+
+    <Button
+        android:background="@drawable/button1"
+        android:text="فصل ششم"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/fasl6"
+        android:onClick="showPdf6"/>
+
+    <Button
+        android:background="@drawable/button1"
+        android:text="فصل هفتم"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/fasl7"
+        android:onClick="showPdf7"/>
+
+    <Button
+        android:background="@drawable/button1"
+        android:text="فصل هشتم"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/fasl8"
+        android:onClick="showPdf8"/>
+
+    <Button
+        android:background="@drawable/button1"
+        android:text="فصل نهم"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:id="@+id/fasl9"
+        android:onClick="showPdf9"/>
+
+    <Button
+        android:background="@drawable/button1"
+        android:text="فصل دهم"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/fasl10"
+        android:onClick="showPdf10"/>
+</LinearLayout>
